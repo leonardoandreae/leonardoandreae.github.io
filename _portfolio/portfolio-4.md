@@ -1,5 +1,5 @@
 ---
-title: "Optimization-Based Collision Avoidance for ANYmal"
+title: "Application Programming of a 6-DOF Robot Arm and Linear Axis"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

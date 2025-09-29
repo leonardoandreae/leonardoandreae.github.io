@@ -1,5 +1,5 @@
 ---
-title: "Optimization-Based Collision Avoidance for ANYmal"
+title: "Parameter Identification and Adaptive Control of an X-Configuration Quadrotor"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

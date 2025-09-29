@@ -1,5 +1,5 @@
 ---
-title: "Optimization-Based Collision Avoidance for ANYmal"
+title: "Modelling and Simulation of a Dual Arm Robot Lifting an Object"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

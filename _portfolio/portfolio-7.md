@@ -1,5 +1,5 @@
 ---
-title: "Optimization-Based Collision Avoidance for ANYmal"
+title: "Design and Development of a Physical Motion Simulator for Sensor Calibration"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
