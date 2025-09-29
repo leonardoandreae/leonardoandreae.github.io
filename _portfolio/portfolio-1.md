@@ -7,9 +7,13 @@ collection: portfolio
 ## General Information
 
 **Start Date**: June 2022
+
 **Duration**: 2.5 years
+
 **Location**: Oensingen, Switzerland
+
 **Employer**: INOMO Technologies AG
+
 **Tags**: automotive, ECU, embedded systems, C programming, RTOS, MISRA, HIL testing, CAN bus, sensor integration.
 
 ## Project Description
