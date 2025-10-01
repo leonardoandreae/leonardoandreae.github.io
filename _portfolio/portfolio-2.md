@@ -7,9 +7,13 @@ collection: portfolio
 ## General Information
 
 **Start Date**: February 2021
+
 **Duration**: 7 months
+
 **Location**: Zürich, Switzerland
+
 **Employer**: [Robotic Systems Lab](https://rsl.ethz.ch/)
+
 **Tags**: master thesis, ANYmal, legged robotics, collision avoidance, optimal control, MPC, mathematical optimization, C++ programming
 
 ## Project Description
