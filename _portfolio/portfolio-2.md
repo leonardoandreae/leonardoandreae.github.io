@@ -6,12 +6,22 @@ collection: portfolio
 
 ## General Information
 
-**Start Date**: ...
-**Duration**: ...
-**Location**: ...
-**Employer**: ...
-**Tags**: ...
+**Start Date**: February 2021
+**Duration**: 7 months
+**Location**: Zürich, Switzerland
+**Employer**: [Robotic Systems Lab](https://rsl.ethz.ch/)
+**Tags**: master thesis, ANYmal, legged robotics, collision avoidance, optimal control, MPC, mathematical optimization, C++ programming
 
 ## Project Description
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+This project represents my final academic endeavor at ETH Zürich, my master thesis.
+
+The premise of the work is the following: typical collision avoidance approaches make use of Euclidian Signed Distance Fields (ESDFs) to compute distances between the robot and the surrounding obstacles. While this works well in many cases, ESDFs can cause numerical problems because they are generally not differentiable everywhere, which can lead to slow convergence when using methods relying on gradient information. The algorithm developed in the thesis seeks to find a viable alternative to solve this problem.
+
+The target platform of interest is ANYmal, the famous quadruped robot developed by ANYbotics and RSL, which is represented below.
+
+<p align="center">
+  <img src="/images/anymal.png" />
+</p>
+
+The approach consists of formulating a holistic, MPC-based method to solve the problem of collision-free trajectory planning and motion control jointly and formulating obstacle avoidance constrainsts exploiting a useful property of strong duality. In fact, by dualizing these constraints, they can be shown to be differentiable.
