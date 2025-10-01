@@ -24,8 +24,6 @@ The premise of the work is the following: typical collision avoidance approaches
 
 The target platform of interest is ANYmal, the famous quadruped robot developed by ANYbotics and RSL, which is represented below.
 
-<p align="center">
-  <img src="/images/anymal.png", alt="ANYmal" />
-</p>
+![ANYmal](/images/anymal.png)
 
 The approach consists of formulating a holistic, MPC-based method to solve the problem of collision-free trajectory planning and motion control jointly and formulating obstacle avoidance constrainsts exploiting a useful property of strong duality. In fact, by dualizing these constraints, they can be shown to be differentiable.
