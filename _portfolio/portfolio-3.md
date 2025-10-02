@@ -14,6 +14,8 @@ collection: portfolio
 
 **Employer**: [Vision for Robotics Lab](https://asl.ethz.ch/v4rl.html)
 
+**Supervision**: Dr. Luca Bartolomei, Dr. Rubén Mascaró Palliser, Prof. Dr. Margarita Chli
+
 **Tags**: semester thesis, wheeled autonomous robots, CHOMP, trajectory planning, local path planner, nonlinear optimization, ROS, C++ programming
 
 ## Project Description

@@ -7,9 +7,13 @@ collection: portfolio
 ## General Information
 
 **Start Date**: August 2019
+
 **Duration**: 3-4 months
+
 **Location**: Glattbrugg, Switzerland
+
 **Employer**: F&P Robotics
+
 **Tags**: robotic arm, pick-and-place, Python, modbus, software development, industrial application
 
 ## Project Description

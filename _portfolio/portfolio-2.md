@@ -14,6 +14,8 @@ collection: portfolio
 
 **Employer**: [Robotic Systems Lab](https://rsl.ethz.ch/)
 
+**Supervision**: Dr. Farbod Farshidian, Dr. Julian Nubert, Prof. Dr. Marco Hutter
+
 **Tags**: master thesis, ANYmal, legged robotics, collision avoidance, optimal control, MPC, conic optimization, operator splitting, augmented lagrangian, SOCP, ROS, C++ programming.
 
 ## Project Description
