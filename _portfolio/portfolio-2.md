@@ -22,7 +22,7 @@ This project represented my final academic endeavor at ETH Zürich, my Master’
 
 The work focused on improving collision avoidance for robotic systems. Typical approaches rely on **Euclidean Signed Distance Fields (ESDFs)** to compute distances between the robot and surrounding obstacles. While effective in many cases, ESDFs are not differentiable everywhere, which can cause numerical issues and slow convergence in optimization methods that rely on gradient information. The goal of the thesis was to develop an alternative approach to overcome these limitations.  
 
-The target platform was **ANYmal**, the quadruped robot developed by ANYbotics and the Robotic Systems Lab (RSL).  
+The target platform was **ANYmal** (see picture below), the quadruped robot developed by ANYbotics and the Robotic Systems Lab (RSL).  
 
 ![ANYmal](/images/anymal_.png)
 
