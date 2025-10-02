@@ -20,8 +20,9 @@ collection: portfolio
 
 This project represented my Semester Thesis, a semester-long research work within the Master’s program in Mechanical Engineering at ETH Zürich.  
 
-The work built upon prior developments at the **Vision for Robotics Lab (V4RL)**, where a complete software pipeline for the autonomous navigation of the wheeled mobile robot **SuperMegaBot** (see figure below) had been created. The pipeline integrated modules for object detection, environment mapping, static and dynamic obstacle tracking, global and local trajectory planning, and motion control.  
-The focus of my thesis was improving of the **local planner**, which at the time was based on the [CHOMP](https://www.researchgate.net/publication/258141018_CHOMP_Covariant_Hamiltonian_optimization_for_motion_planning) algorithm.  
+The work built upon prior developments at the **Vision for Robotics Lab (V4RL)**, where a complete software pipeline for the autonomous navigation of the wheeled mobile robot **SuperMegaBot** (see figure below) had been created. The pipeline integrated modules for object detection, environment mapping, static and dynamic obstacle tracking, global and local trajectory planning, and motion control.
+
+The focus of my thesis was improving the **local planner**, which was based on the [CHOMP](https://www.researchgate.net/publication/258141018_CHOMP_Covariant_Hamiltonian_optimization_for_motion_planning) algorithm.  
 
 ![SuperMegaBot](/images/supermegabot.png)
 
@@ -29,7 +30,7 @@ The focus of my thesis was improving of the **local planner**, which at the time
 
 ### Approach
 
-The existing CHOMP-based local planner showed several shortcomings: the state space was over-parameterized with unnecessary dynamic variables, the cost function relied on mathematical workarounds, system constraints were encoded in a scalar summation format that made monitoring individual violations difficult, and the optimization relied on large matrix inversions in a gradient descent scheme. As a result, the optimization was computationally expensive and could only be executed at low frequencies, limiting real-time applicability.  
+The existing local planner showed several shortcomings: the state space was over-parameterized with unnecessary dynamic variables, the cost function relied on mathematical workarounds, system constraints were encoded in a scalar summation format that made monitoring individual violations difficult, and the optimization relied on large matrix inversions in a gradient descent scheme. As a result, the optimization was computationally expensive and could only be executed at low frequencies, limiting real-time applicability.  
 
 To address these issues, the optimization procedure was reformulated mathematically from scratch while maintaining a CHOMP-based foundation. The new formulation featured:  
 
