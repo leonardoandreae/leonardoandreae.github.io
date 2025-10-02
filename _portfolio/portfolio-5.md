@@ -20,7 +20,7 @@ collection: portfolio
 
 ## Project Description
 
-This project was developed as part of the course **“Dynamics of Multibody Systems” (SYDE 652)**, taught by Prof. Dr. John McPhee at the University of Waterloo, which I attended during my exchange semester. It was a collaborative effort carried out by a team of three students and focused on the modeling and simulation of a dual-arm robotic system designed to manipulate a heavy object.  
+This project was developed as part of the course **“Dynamics of Multibody Systems” (SYDE 652)**, taught by Prof. Dr. John McPhee at the University of Waterloo, which I attended during my exchange semester. It was a collaborative effort carried out by a team of 3 students and focused on the modeling and simulation of a dual-arm robotic system designed to manipulate a heavy object.
 
 The first stage of the project consisted of developing a **mathematical model** of the robot (see figure below). Assuming planar motion, the system was represented as four rigid links with defined geometric and mass properties, while the manipulated object was modeled as a rectangular block with a known mass and dimensions.
 
