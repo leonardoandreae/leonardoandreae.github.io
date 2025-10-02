@@ -1,6 +1,6 @@
 ---
 title: "Modelling and Simulation of a Dual Arm Robot Handling an Object"
-excerpt: "<br/><img src='/images/500x300.png'>"
+excerpt: "<br/><img src='/images/dual_arm_model.png'>"
 collection: portfolio
 ---
 
