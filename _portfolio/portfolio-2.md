@@ -55,7 +55,7 @@ Floating Mass             |  ANYmal
 :-------------------------:|:-------------------------:  
 ![3D Floating Mass Simulation](/images/mass_.png) | ![ANYmal Simulation](/images/anymal_sim_.png)  
 
-### Outcome and Key Learning
+### Outcome and Key Learnings
 
 The project demonstrated a promising MPC-based approach to collision-free motion planning, with differentiable obstacle avoidance constraints made feasible through Operator Splitting and Augmented Lagrangian methods.  
 
