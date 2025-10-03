@@ -12,7 +12,7 @@ collection: portfolio
 
 **Location**: Zürich, Switzerland
 
-**Employer**: [Robotic Systems Lab](https://rsl.ethz.ch/)
+**Employer**: [Robotic Systems Lab (RSL)](https://rsl.ethz.ch/)
 
 **Supervision**: Dr. Farbod Farshidian, Dr. Julian Nubert, Prof. Dr. Marco Hutter
 

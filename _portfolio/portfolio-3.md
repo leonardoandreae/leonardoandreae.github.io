@@ -12,7 +12,7 @@ collection: portfolio
 
 **Location**: Zürich, Switzerland
 
-**Employer**: [Vision for Robotics Lab](https://asl.ethz.ch/v4rl.html)
+**Employer**: [Vision for Robotics Lab (V4RL)](https://asl.ethz.ch/v4rl.html)
 
 **Supervision**: Dr. Luca Bartolomei, Dr. Rubén Mascaró Palliser, Prof. Dr. Margarita Chli
 
