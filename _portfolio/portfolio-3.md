@@ -47,7 +47,7 @@ After benchmarking various commercial and open-source nonlinear optimization sol
 
 The redesigned local planner was implemented as a **ROS package** with a dedicated C++ interface to NLopt. This allowed the planner to perform trajectory optimization efficiently and integrate seamlessly into the existing navigation pipeline.  
 
-Extensive testing was conducted in simulation, with scenarios including both static and dynamic obstacles. These evaluations confirmed the feasibility of the new formulation and demonstrated improved performance compared to the previous approach.  
+Extensive testing was conducted in simulation (see image below), with scenarios including both static and dynamic obstacles. These evaluations confirmed the feasibility of the new formulation and demonstrated improved performance compared to the previous approach.  
 
 ![SuperMegaBot Simulation](/images/supermegabot_sim.png)
 
