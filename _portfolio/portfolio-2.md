@@ -20,6 +20,8 @@ collection: portfolio
 
 ## Project Description
 
+### Background
+
 This project represented my final academic endeavor at ETH Zürich, my Master’s thesis.  
 
 The work focused on improving collision avoidance for robotic systems. Typical approaches rely on **Euclidean Signed Distance Fields (ESDFs)** to compute distances between the robot and surrounding obstacles. While effective in many cases, ESDFs are not differentiable everywhere, which can cause numerical issues and slow convergence in optimization methods that rely on gradient information. The goal of the thesis was to develop an alternative approach to overcome these limitations.  
@@ -27,8 +29,6 @@ The work focused on improving collision avoidance for robotic systems. Typical a
 The target platform was **ANYmal** (see picture below), the famous quadruped robot developed by ANYbotics and the Robotic Systems Lab (RSL).  
 
 ![ANYmal](/images/anymal_.png)
-
----
 
 ### Approach
 
@@ -44,8 +44,6 @@ To address this, the problem was decomposed into smaller subproblems using an **
 
 The **DVU step** was critical, as its solve time had a major impact on real-time feasibility. To evaluate different options, a benchmarking study was conducted, leading to the choice of [SuperSCS](https://github.com/kul-optec/superscs) as the solver.  
 
----
-
 ### Implementation
 
 With the theoretical framework in place, a **real-time iteration scheme** was formulated and implemented.  
@@ -57,11 +55,8 @@ Floating Mass             |  ANYmal
 :-------------------------:|:-------------------------:  
 ![3D Floating Mass Simulation](/images/mass_.png) | ![ANYmal Simulation](/images/anymal_sim_.png)  
 
----
-
 ### Outcome
 
 The project demonstrated a promising MPC-based approach to collision-free motion planning, with differentiable obstacle avoidance constraints made feasible through Operator Splitting and Augmented Lagrangian methods.  
 
-The work provided insights into solver performance, algorithm design, and implementation challenges for real-time robotic applications, and contributed to ongoing research on advanced motion planning methods for legged robots like ANYmal.  
-
+The work provided insights into solver performance, algorithm design, and implementation challenges for real-time robotic applications, and contributed to ongoing research on advanced motion planning methods for legged robots like ANYmal.

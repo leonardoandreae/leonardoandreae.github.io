@@ -18,9 +18,13 @@ collection: portfolio
 
 ## Project Description
 
+## Background
+
 This project represents the main work I carried out during my time at **INOMO Technologies AG** (formerly known as **Streetscooter Schweiz AG**). I was part of a small team of engineers responsible for developing the application software, written in C, for a new line of **Battery Management Systems (BMS)** used in electric vehicles and energy storage systems.
 
 The BMS is an embedded device that monitors the status of the battery by processing and analyzing data streams from sensors and other **Electronic Control Units (ECUs)** via the **CAN bus** network. The software runs on a multi-core microcontroller architecture based on a **Real-Time Operating System (RTOS)**.
+
+### Development Processes and Tools
 
 The software development workflow followed an agile approach and included the following steps:
 
@@ -32,9 +36,15 @@ To ensure compliance with modern automotive standards, the software adhered to t
 
 Feature testing was conducted using a **Hardware-in-the-Loop (HIL)** setup, in combination with [vTestStudio](https://www.vector.com/it/it/prodotti/products-a-z/software/vteststudio/), an environment for creating automated tests, and [UDE](https://www.st.com/en/partner-products-and-services/ude-universal-debug-engine-multi-core-debugger.html), a debugger for embedded devices such as the BMS.
 
+### Main Contributions
+
 Over the years, I worked on many different software modules. The most important ones include:
 
 * **Insulation Monitoring Device**: Integrated a sensor to detect unwanted discharge currents to the vehicle chassis, and developed a software module that analyzed input signals and performed test routines to ensure safety and fault handling.  
 * **Main State Machine**: Contributed to multiple features of the main state machine, which defines how the BMS reacts to specific external signals and conditions.  
 * **Power Limits Computation and Monitoring**: Developed a software module to calculate the battery’s power output limits, taking into account variables such as the State of Charge (SoC), temperature, current, cell voltages and derating conditions. The module also included monitoring routines with corresponding fault detection and handling.  
 * **CAN Message Processing**: Integrated several new CAN messages into the software, including a complex multiplexed diagnostic message for the energy storage system application.
+
+### Key Learnings
+
+During this project I gained practical experience with the workflow of embedded software development for automotive applications. I practiced implementing and testing code in C on RTOS-based microcontrollers, applied automotive coding standards, and worked with tools for debugging, static analysis, and version control. I also gained experience collaborating in an agile team and contributing to modules such as state machines, safety monitoring, and CAN communication.  
