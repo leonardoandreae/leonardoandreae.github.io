@@ -1,6 +1,6 @@
 ---
 title: "Application Programming of a 6-DOF Robot Arm and Linear Axis"
-excerpt: "<br/><img src='/images/prob.png'>"
+excerpt: "<br/><img src='/images/prob_800x500.png'>"
 collection: portfolio
 ---
 

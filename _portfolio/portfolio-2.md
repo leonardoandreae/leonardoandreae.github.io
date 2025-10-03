@@ -1,6 +1,6 @@
 ---
 title: "Optimization-Based Collision Avoidance for ANYmal"
-excerpt: "<br/><img src='/images/anymal_sim.png'>"
+excerpt: "<br/><img src='/images/anymal_sim_800x500.png'>"
 collection: portfolio
 ---
 
@@ -28,7 +28,7 @@ The work focused on improving collision avoidance for robotic systems. Typical a
 
 The target platform was **ANYmal** (see picture below), the famous quadruped robot developed by ANYbotics and the Robotic Systems Lab (RSL).  
 
-![ANYmal](/images/anymal_.png)
+![ANYmal](/images/anymal.png)
 
 ### Approach
 
@@ -55,8 +55,8 @@ Floating Mass             |  ANYmal
 :-------------------------:|:-------------------------:  
 ![3D Floating Mass Simulation](/images/mass_.png) | ![ANYmal Simulation](/images/anymal_sim_.png)  
 
-### Outcome
+### Outcome and Key Learning
 
 The project demonstrated a promising MPC-based approach to collision-free motion planning, with differentiable obstacle avoidance constraints made feasible through Operator Splitting and Augmented Lagrangian methods.  
 
-The work provided insights into solver performance, algorithm design, and implementation challenges for real-time robotic applications, and contributed to ongoing research on advanced motion planning methods for legged robots like ANYmal.
+The work provided insights into solver performance, algorithm design, and implementation challenges for real-time robotic applications, and contributing to ongoing research on advanced motion planning methods for legged robots like ANYmal.

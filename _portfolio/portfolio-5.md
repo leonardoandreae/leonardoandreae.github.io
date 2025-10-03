@@ -1,6 +1,6 @@
 ---
 title: "Modelling and Simulation of a Dual Arm Robot Handling an Object"
-excerpt: "<br/><img src='/images/dual_arm_model.png'>"
+excerpt: "<br/><img src='/images/dual_arm_model_800x500.png'>"
 collection: portfolio
 ---
 
@@ -32,9 +32,11 @@ The first stage of the project consisted of developing a **mathematical model** 
 
 Once the structure was defined, we performed a **kinematic analysis** of the system to determine the joint angle trajectories required for a prescribed motion of the load. This step was followed by an **inverse dynamics computation**, where we calculated the joint torques necessary to reproduce the desired motion. To capture the physical interaction more realistically, we incorporated a **sliding contact model** for the load, allowing us to simulate the effects of friction and contact forces.
 
+Building on this, we implemented a **control scheme** capable of tracking the computed joint torque trajectories, ensuring that the robot could achieve stable and precise motion.
+
 ### Implementation and Validation
 
-Building on this, we implemented a **controller structure** capable of tracking the computed joint torque trajectories, ensuring that the robot could achieve stable and precise motion. All modeling, analysis, and control design steps were carried out in **Matlab**, leveraging its symbolic and numerical toolboxes.  
+All modeling, analysis, and control design steps were carried out in **Matlab**, leveraging its symbolic and numerical toolboxes.  
 
 In the final phase, we validated our model by comparing it against simulations in **MSC ADAMS**, a professional multibody dynamics software widely used in industry. A convergence study was performed to assess the accuracy of our approach, providing confidence in the fidelity of our Matlab-based model.
 

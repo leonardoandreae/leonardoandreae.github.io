@@ -1,6 +1,6 @@
 ---
 title: "Formalization and Implementation of a Path Planning Algorithm for Autonomous Robot Navigation"
-excerpt: "<br/><img src='/images/supermegabot_sim.png'>"
+excerpt: "<br/><img src='/images/supermegabot_sim_800x500.png'>"
 collection: portfolio
 ---
 
@@ -51,6 +51,8 @@ Extensive testing was conducted in simulation, with scenarios including both sta
 
 ![SuperMegaBot Simulation](/images/supermegabot_sim.png)
 
-### Outcome
+### Outcome and Key Learnings
 
-The thesis successfully developed and validated an improved local planner for SuperMegaBot. By reformulating the optimization problem and leveraging modern solvers, the work achieved faster computation times, a clearer constraint representation, and greater flexibility in trajectory generation. This contributed to advancing the navigation capabilities of the robot and laid the foundation for further improvements in real-world applications.  
+The thesis successfully developed and validated an improved local planner for SuperMegaBot. By reformulating the optimization problem and leveraging modern solvers, the work achieved faster computation times, a clearer constraint representation, and greater flexibility in trajectory generation. This contributed to advancing the navigation capabilities of the robot and laid the foundation for further improvements in real-world applications.
+
+This experience allowed me to understand how to integrate new software in existing robotics navigation pipelines as well as strengthening my C++ programming skills (ROS in particular) and familiarizing with modern motion planning algorithms.

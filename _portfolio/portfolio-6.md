@@ -1,6 +1,6 @@
 ---
 title: "Parameter Identification and Adaptive Control of an X-Configuration Quadrotor"
-excerpt: "<br/><img src='/images/qdrone.png'>"
+excerpt: "<br/><img src='/images/qdrone_800x500.png'>"
 collection: portfolio
 ---
 

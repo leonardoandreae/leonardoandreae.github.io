@@ -1,6 +1,6 @@
 ---
 title: "ECU Application Software Development"
-excerpt: "<br/><img src='/images/bms.jpg'>"
+excerpt: "<br/><img src='/images/bms_800x500.jpg'>"
 collection: portfolio
 ---
 
@@ -47,4 +47,4 @@ Over the years, I worked on many different software modules. The most important 
 
 ### Key Learnings
 
-During this project I gained practical experience with the workflow of embedded software development for automotive applications. I practiced implementing and testing code in C on RTOS-based microcontrollers, applied automotive coding standards, and worked with tools for debugging, static analysis, and version control. I also gained experience collaborating in an agile team and contributing to modules such as state machines, safety monitoring, and CAN communication.  
+During this project I gained practical experience with the workflow of embedded software development for automotive applications. I practiced implementing and testing code in C on RTOS-based microcontrollers, applied automotive coding standards, and worked with tools for debugging, static analysis, and version control. I also gained experience collaborating in an agile team and contributing to the development and maintenance of large code bases.  

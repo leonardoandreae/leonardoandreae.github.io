@@ -1,6 +1,6 @@
 ---
 title: "Design and Development of a Physical Motion Simulator for Sensor Calibration"
-excerpt: "<br/><img src='/images/final_setup.png'>"
+excerpt: "<br/><img src='/images/final_setup_800x500.png'>"
 collection: portfolio
 ---
 
