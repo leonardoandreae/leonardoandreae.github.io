@@ -18,7 +18,7 @@ collection: portfolio
 
 ## Project Description
 
-## Background
+### Background
 
 This project represents the main work I carried out during my time at **INOMO Technologies AG** (formerly known as **Streetscooter Schweiz AG**). I was part of a small team of engineers responsible for developing the application software, written in C, for a new line of **Battery Management Systems (BMS)** used in electric vehicles and energy storage systems.
 
