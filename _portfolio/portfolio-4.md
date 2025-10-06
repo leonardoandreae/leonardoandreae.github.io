@@ -22,15 +22,17 @@ collection: portfolio
 
 This project was the main focus of my six-month internship at **F&P Robotics**, where I had the opportunity to contribute directly to the development of an industrial automation solution.  
 
-The client required a robotic system capable of handling a complete **pick-and-place workflow for bottles and cans**, which included labeling, filling with liquid, capping, and finally placing them into dedicated containers.
-
-### Implementation and Responsibilities
-
-The solution was provided with **P-Rob** (see image below), a six-degree-of-freedom robotic arm developed by F&P, mounted on a linear axis to extend its operational workspace. The robot was integrated into the facility’s production environment through a **Modbus-based communication system**, ensuring seamless interaction with other equipment.
+The client required a robotic system capable of handling a complete **pick-and-place workflow for bottles and cans**, which included labeling, filling with liquid, capping, and finally placing them into dedicated containers. The solution was provided with **P-Rob** (see image below), a six-degree-of-freedom robotic arm developed by F&P, mounted on a linear axis. The robot was integrated into the facility’s production environment through a **Modbus-based communication system**, ensuring seamless interaction with other equipment.
 
 ![P-Rob](/images/prob.png)
 
-My responsibility was the **development of the application software** that governed the robot’s behavior. Using the company’s Python-based frontend application, I programmed the robot to execute the entire sequence of operations. This involved defining precise poses and trajectories, coordinating the timing of gripper opening and closing, and synchronizing the robot’s actions with the linear axis movement. Special care was taken to ensure repeatability, reliability, and safe operation within an industrial environment.  
+### Responsibilities and Contributions
+
+My responsibility was **writing the software** that governed the robot’s behavior as well as testing the robustness of the entire system.
+
+Using the company’s Python-based frontend application, I programmed the robot to execute the entire sequence of operations. This involved defining precise poses and trajectories, coordinating the timing of gripper opening and closing, and synchronizing the robot’s actions with the linear axis movement. Special care was taken to ensure repeatability, reliability, and safe operation within the industrial environment.
+
+The robot was tested thoroughly in different operating conditions to tune the application parameters optimally and guarantee a long term, maintainable and robust system for the client.
 
 ### Outcome and Key Learnings
 

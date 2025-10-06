@@ -24,19 +24,9 @@ This project represents the main work I carried out during my time at **INOMO Te
 
 The BMS is an embedded device that monitors the status of the battery by processing and analyzing data streams from sensors and other **Electronic Control Units (ECUs)** via the **CAN bus** network. The software runs on a multi-core microcontroller architecture based on a **Real-Time Operating System (RTOS)**.
 
-### Development Processes and Tools
+### Responsibilities and Contributions
 
-The software development workflow followed an agile approach and included the following steps:
-
-* **Sprint Planning**: The workload for the next sprint (typically two weeks) was decided collaboratively by all team members, with tasks and deadlines assigned to each developer. Issue tracking was managed using Atlassian Jira.  
-* **Implementation**: Features were implemented, tested, reviewed (via GitHub), and merged into the main codebase.  
-* **Retrospective**: At the end of each sprint, the team held a retrospective meeting to assess progress toward the sprint goals and to adjust plans as needed.  
-
-To ensure compliance with modern automotive standards, the software adhered to the rules defined by [MISRA](https://misra.org.uk/misra-c/). Every new piece of code was statically analyzed using the [QAC Helix](https://www.perforce.com/products/helix-qac) tool before being merged.
-
-Feature testing was conducted using a **Hardware-in-the-Loop (HIL)** setup, in combination with [vTestStudio](https://www.vector.com/it/it/prodotti/products-a-z/software/vteststudio/), an environment for creating automated tests, and [UDE](https://www.st.com/en/partner-products-and-services/ude-universal-debug-engine-multi-core-debugger.html), a debugger for embedded devices such as the BMS.
-
-### Main Contributions
+As a member of the embedded software team, I actively participated in all stages of the software development process, from sprint planning to implementation, testing, code reviews and documentation, within an agile workflow and continuous integration practices. Towards the later stages of the project I also dedicated some of my time to requirements definition and maintenance.
 
 Over the years, I worked on many different software modules. The most important ones include:
 
@@ -44,6 +34,14 @@ Over the years, I worked on many different software modules. The most important 
 * **Main State Machine**: Contributed to multiple features of the main state machine, which defines how the BMS reacts to specific external signals and conditions.  
 * **Power Limits Computation and Monitoring**: Developed a software module to calculate the battery’s power output limits, taking into account variables such as the State of Charge (SoC), temperature, current, cell voltages and derating conditions. The module also included monitoring routines with corresponding fault detection and handling.  
 * **CAN Message Processing**: Integrated several new CAN messages into the software, including a complex multiplexed diagnostic message for the energy storage system application.
+
+### Development Tools
+
+Issue tracking was performed with Atlassian Jira, GitHub was the choice for code reviews and software requirements were maintained with Polarion.
+
+To ensure compliance with modern automotive standards, the software adhered to the rules defined by [MISRA](https://misra.org.uk/misra-c/). Every new piece of code was statically analyzed using the [QAC Helix](https://www.perforce.com/products/helix-qac) tool before being merged.
+
+Feature testing was conducted using a **Hardware-in-the-Loop (HIL)** setup, in combination with [vTestStudio](https://www.vector.com/it/it/prodotti/products-a-z/software/vteststudio/), an environment for creating automated tests, and [UDE](https://www.st.com/en/partner-products-and-services/ude-universal-debug-engine-multi-core-debugger.html), a debugger for embedded devices such as the BMS.
 
 ### Key Learnings
 
