@@ -33,7 +33,7 @@ As an alternative, a more practical approach was chosen: **building a physical t
 The first task was to define the mechanical design of the system. A central challenge was to prevent the twisting of the pedal motor wiring as the crank shaft rotated. Two possible solutions were considered (see images below):
 
 1. Using a **slip ring** to decouple the motion of the two cable ends.
-2. Employing a **hollow shaft motor** for the crank motion with a timing belt attached to the main shaft. 
+2. Employing a **hollow shaft motor** for the crank motion with a timing belt attached to the main shaft.
 
 Design 1             |  Design 2  
 :-------------------------:|:-------------------------:  

@@ -39,7 +39,7 @@ With the models established, we proceeded through several stages of development:
 
 ### Implementation
 
-Parameter identification and control structures (see images below) were implemented in Simulink, while the reference tracking tests were performed in Matlab. 
+Parameter identification and control structures (see images below) were implemented in Simulink, while the reference tracking tests were performed in Matlab.
 
 Linear Control Scheme             |  Nonlinear Control Scheme
 :-------------------------:|:-------------------------:  
